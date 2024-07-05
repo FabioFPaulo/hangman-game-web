@@ -124,7 +124,6 @@ function App() {
   }, [errors]);
 
   useEffect(() => {
-    console.log(characters, display);
     if (!display.includes("_")) {
       setIsWin(true);
       setIsVisible(true);
